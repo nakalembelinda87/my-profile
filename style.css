@@ -1,0 +1,68 @@
+/* General page setup */
+body {
+    background-color: black; 
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 20px;
+}
+
+/* Headings */
+h1 {
+	color: green;
+}
+h2, h3, h5 {
+    color: darkred;
+}
+
+/* Links */
+a {
+    color: green;
+    text-decoration: none;
+    margin: 5px;
+}
+a:hover {
+    color: red;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-top: 10px;
+}
+th {
+    background-color: #003366;
+}
+td {
+    background-color: darkgreen;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Form */
+form {
+    background-color: black;
+    padding: 10px;
+    border: 1px solid white;
+    width: 300px;
+    border-radius: 6px;
+}
+input, textarea {
+	background-color: black;
+	color: white;
+	border: 3px solid green;
+    margin-bottom: 10px;
+    width: 95%;
+}
+input[type="submit"] {
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #001a33;
+}
